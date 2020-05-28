@@ -1,0 +1,270 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    /*font-family: 'Fira Sans', sans-serif;
+    font-family: 'Oswald', sans-serif;*/
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    text-shadow: rgb(0, 0, 0) 0 0 1.5px;
+
+}
+
+#zadanie:before {
+	display: block;
+	content: "";
+	height: 70px;
+	margin: -70px 0 0;
+}
+#team:before {
+	display: block;
+	content: "";
+	height: 70px;
+	margin: -70px 0 0;
+}
+#hodrabot:before {
+	display: block;
+	content: "";
+	height: 70px;
+	margin: -70px 0 0;
+}
+
+
+.header1{
+    display:inline-block;
+    width:100%;
+    height:83px;
+    /* background-color:transparent; */
+    background-color: rgba(255, 255, 255)   ;
+    position: sticky;
+    top: 0;
+   
+}
+.logo{
+width:75px;
+height:75px;
+/* border:2px dotted black; */
+padding:5px;
+margin-left:35px;
+float: left;
+
+}
+.logo-name{
+    float:left;
+    width:200px;
+    height:50px;
+    /* border:2px dotted black; */
+    margin-top:15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    margin-left:10px;
+   
+
+}
+.navig{
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Oswald', sans-serif;
+    float:right;
+    margin-top:18px;
+}
+.navig ul li{
+ display:inline-block;
+ margin-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.menu{
+    display: inline-block;
+
+}   
+.container-header{
+    background-image: url('1878198.jpg');
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    filter: alpha(Opacity=70);
+        opacity: 0.7;
+    
+ }
+ .fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 400px;
+    width: 100%;
+    padding-top:45%;
+}
+ 
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    font-family: 'Fira Sans', sans-serif;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+}
+.giphy-embed{
+    transform: rotate(180deg);
+    margin-top: 50px;
+}
+
+
+.hod-rabot{
+    width:100%;
+    height:800px;
+    background-color: rgb(58, 49, 49);
+}
+.hod-header{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 500;
+    font-size: 65px;
+    margin-top:25px;
+/* text-align:center; */
+   margin-left:50px;
+   color: white;
+   
+}
+
+.hod-content{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.container-order{
+height:425px;
+width:100%;
+background-color:#dfdedf;
+display: inline-block;
+
+
+}
+
+.order{
+    
+float:left;
+width:50%;
+height:425px;
+background-color:#dfdedf;
+/*text-shadow: rgb(0, 0, 0) 0 0 2.5px;*/
+
+}
+
+.order h1 {
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(58, 49, 49);
+    font-size: 70px;
+    margin-top:45px;
+    margin-left:100px;
+}
+.order h2 {
+    font-family: 'Fira Sans', sans-serif;
+    color:rgb(58, 49, 49);
+    font-size: 50px;
+    margin-top:20px;
+    margin-left:100px;
+}
+.order-continue-video{
+    width:80%;
+    height:425px;
+}
+
+.video-container{
+    text-align: center;
+    width:50%;
+float:left;
+width:50%;
+height:400px;
+}
+.team{
+ text-align: center;
+    width:100%;
+    
+     
+}
+.team-header{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 65px;
+    margin-top:35px;
+    text-align:center;
+}
+.team ul{
+   
+
+    margin-top:20px;
+}
+.team li{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 23px;
+    display : inline-block;
+    width:250px;
+    height:250px;
+  
+    margin-left: 35px;
+    margin-top: 30px;
+
+}
+.team li img{
+    margin-bottom: 5px;
+}
+.team li h6{
+    margin-top: 5px;
+    
+  
+}
+
+
+.footer{
+    margin-top: 30px;
+    background-color: rgb(58, 49, 49);
+    width:100%;
+    height:300px; 
+}
+.foot-header{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 65px;
+    padding-top:25px;
+    margin-left:65px;
+    color: white;
+  font-weight: 500;
+}
