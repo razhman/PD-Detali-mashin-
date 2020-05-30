@@ -4,6 +4,7 @@
     padding:0;
     /*font-family: 'Fira Sans', sans-serif;
     font-family: 'Oswald', sans-serif;*/
+    transition: 0.3s
 }
 a{
     text-decoration: none;
@@ -143,24 +144,78 @@ float: left;
 
 .hod-rabot{
     width:100%;
-    height:800px;
+    height:850px;
     background-color: rgb(58, 49, 49);
 }
 .hod-header{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
     font-size: 65px;
-    margin-top:25px;
-/* text-align:center; */
-   margin-left:50px;
-   color: white;
+    margin-top:30px;
+    margin-left:50px;
+    color: white;
    
 }
 
 .hod-content{
     
+width:800px;
+height:550px;
+background-color: #dfdedf;
+float:right;
+margin-right: 10%;
+text-align: center;
+margin-top:25px;
+
+
+
 }
 
+/* .hod-content iframe{
+    
+} */
+
+.hod-plan{
+    float:left;
+    width:600px;
+height:550px;
+
+margin-top:1px;
+margin-left:10%
+    
+}
+.hod-plan h2 {
+
+    font-size: 50px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-top: 50px;
+
+}
+.hod-plan h3 {
+
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Fira Sans', sans-serif;
+    color: white;
+    margin-left: 7%;
+
+}
+.hod-plan a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+      
+
+}
+
+
+.hod-plan a:hover{
+    text-decoration: none;
+    color: rgb(255, 174, 0);
+    text-shadow: rgb(0, 0, 0) 0 0 1.5px;
+
+}
 
 
 
@@ -258,13 +313,55 @@ height:400px;
     margin-top: 30px;
     background-color: rgb(58, 49, 49);
     width:100%;
-    height:300px; 
+    height:200px; 
 }
 .foot-header{
     font-family: 'Fira Sans', sans-serif;
     font-size: 65px;
     padding-top:25px;
-    margin-left:65px;
+  text-align: center;
     color: white;
-  font-weight: 500;
+  font-weight: 400;
+  width:100%;
+  height:10px;
+  margin-bottom:40px;
+  
+
+}
+
+.social{
+    text-align: center;
+margin:auto;
+width:100%;
+    height:100px;
+    
+    
+}
+.social a{
+
+    margin-right:25px;
+
+
+}
+a svg #vk,
+a svg #youtube,
+a svg #github { 
+  transition: 200ms;
+  transition-timing-function: ease-in-out;
+  padding-right:25px;
+  
+
+}
+
+
+a svg:hover #github { 
+  fill: rgb(36, 23, 23);
+}
+
+a svg:hover #youtube { 
+    fill: rgb(245, 0, 0);
+  }
+
+a svg:hover #vk { 
+    fill: rgb(35, 102, 247);
 }
