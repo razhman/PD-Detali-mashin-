@@ -180,6 +180,10 @@ float:left;
 margin-top: 10px;
 /* border: 2px solid red;    */
 }
+.video{
+    width:780px;
+height:550px;
+}
 
 
 .hod-plan h2 {
@@ -375,4 +379,30 @@ a svg:hover #vk {
 }
 a svg:hover #trello { 
     fill: rgb(97, 140, 231);
+}
+
+
+@media (max-width: 1400px){
+    .overlay h1 {
+        text-align:center;
+        font-family: 'Fira Sans', sans-serif;
+        color:#fff;
+        font-size: 60px;
+        margin-top:12%;
+    }
+    .order h1 {
+        font-family: 'Fira Sans', sans-serif;
+        color:rgb(58, 49, 49);
+        font-size: 60px;
+        margin-top:45px;
+        margin-left:100px;
+        /* padding-top:30px; */
+    }
+    .order h2 {
+        font-family: 'Fira Sans', sans-serif;
+        color:rgb(58, 49, 49);
+        font-size: 45px;
+        margin-top:20px;
+        margin-left:100px;
+    }
 }
