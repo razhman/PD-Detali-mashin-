@@ -4,37 +4,36 @@
     padding:0;
     /*font-family: 'Fira Sans', sans-serif;
     font-family: 'Oswald', sans-serif;*/
-    transition: 0.3s
+    transition: 0.2s
 }
 a{
     text-decoration: none;
     color: black;
+    cursor: pointer;
 }
 a:hover{
     text-decoration: none;
     color: rgb(255, 174, 0);
     text-shadow: rgb(0, 0, 0) 0 0 1.5px;
+    cursor: pointer;
 
 }
 
-#zadanie:before {
-	display: block;
-	content: "";
-	height: 70px;
-	margin: -70px 0 0;
+#zadanie {
+	border-top: 70px solid transparent;
+	margin-top: -70px;
+	background-clip: padding-box;
 }
-#team:before {
-	display: block;
-	content: "";
-	height: 70px;
-	margin: -70px 0 0;
+#team {
+	border-top: 55px solid transparent;
+    margin-top: -55px;
+    background-clip: padding-box;
+	
 }
-#hodrabot:before {
-	display: block;
-	content: "";
-	height: 70px;
-	margin: -70px 0 0;
-}
+
+
+
+
 
 
 .header1{
@@ -50,7 +49,7 @@ a:hover{
 .logo{
 width:75px;
 height:75px;
-/* border:2px dotted black; */
+
 padding:5px;
 margin-left:35px;
 float: left;
@@ -81,8 +80,6 @@ float: left;
  display:inline-block;
  margin-right: 20px;
 }
-
-
 
 
 
@@ -146,51 +143,53 @@ float: left;
     width:100%;
     height:850px;
     background-color: rgb(58, 49, 49);
+   
+    
 }
 .hod-header{
     font-family: 'Fira Sans', sans-serif;
     font-weight: 500;
-    font-size: 65px;
-    margin-top:30px;
-    margin-left:50px;
+    font-size: 75px;
+    padding-top: 75px;
+    text-align: center;
     color: white;
-   
+    width:100%;
+    /* border: 2px solid red; */
+    
 }
 
 .hod-content{
     
-width:800px;
+width:780px;
 height:550px;
-background-color: #dfdedf;
+
 float:right;
-margin-right: 10%;
+
 text-align: center;
-margin-top:25px;
-
-
-
+width:50%;
+/* border: 2px solid red; */
+margin-top: 50px;
 }
-
-/* .hod-content iframe{
-    
-} */
 
 .hod-plan{
-    float:left;
-    width:600px;
+
+width:600px;
 height:550px;
-
-margin-top:1px;
-margin-left:10%
-    
+width:50%;
+float:left;
+margin-top: 10px;
+/* border: 2px solid red;    */
 }
-.hod-plan h2 {
 
+
+.hod-plan h2 {
+    /* border: 2px solid red;  */
     font-size: 50px;
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
     color: white;
     margin-top: 50px;
+    margin-left: 20%;
 
 }
 .hod-plan h3 {
@@ -199,7 +198,7 @@ margin-left:10%
     font-weight: 400;
     font-family: 'Fira Sans', sans-serif;
     color: white;
-    margin-left: 7%;
+    margin-left: 27%;
 
 }
 .hod-plan a{
@@ -227,28 +226,30 @@ margin-left:10%
 
 
 .container-order{
-height:425px;
+height:430px;
 width:100%;
 background-color:#dfdedf;
 display: inline-block;
 
 
+
 }
 
 .order{
-    
+
 float:left;
 width:50%;
-height:425px;
+height:420px;
 background-color:#dfdedf;
 /*text-shadow: rgb(0, 0, 0) 0 0 2.5px;*/
+
 
 }
 
 .order h1 {
     font-family: 'Fira Sans', sans-serif;
     color:rgb(58, 49, 49);
-    font-size: 70px;
+    font-size: 65px;
     margin-top:45px;
     margin-left:100px;
 }
@@ -261,7 +262,9 @@ background-color:#dfdedf;
 }
 .order-continue-video{
     width:80%;
-    height:425px;
+    height:415px;
+    
+    
 }
 
 .video-container{
@@ -270,6 +273,8 @@ background-color:#dfdedf;
 float:left;
 width:50%;
 height:400px;
+margin-top: 20px;
+
 }
 .team{
  text-align: center;
@@ -293,8 +298,8 @@ height:400px;
     font-size: 23px;
     display : inline-block;
     width:250px;
-    height:250px;
-  
+    height:350px;
+    
     margin-left: 35px;
     margin-top: 30px;
 
@@ -304,6 +309,7 @@ height:400px;
 }
 .team li h6{
     margin-top: 5px;
+    height:70px;
     
   
 }
@@ -345,7 +351,9 @@ width:100%;
 }
 a svg #vk,
 a svg #youtube,
-a svg #github { 
+a svg #trello, 
+a svg #github
+{ 
   transition: 200ms;
   transition-timing-function: ease-in-out;
   padding-right:25px;
@@ -363,5 +371,8 @@ a svg:hover #youtube {
   }
 
 a svg:hover #vk { 
-    fill: rgb(35, 102, 247);
+    fill: rgb(97, 140, 231);
+}
+a svg:hover #trello { 
+    fill: rgb(97, 140, 231);
 }
